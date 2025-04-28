@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 24px;
+  background-color: #fafafa;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1128px;
+  gap: 24px 24px;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+}
+
+.gallery-item img {
+  width: 360px;
+  height: 200px;
+}
+
+.modal {
+  background-color: rgba(46, 47, 66, 0.8);
+}
